@@ -1,0 +1,10 @@
+{
+  "works" : [
+    {
+      "name":"MathJax",
+      "src": "https://github.com/sergeypavlikhin/mathJax",
+      "dest": "https://sergeypavlikhin.github.io/mathJax"
+    }
+  ],
+  "author" : "Pavlikhin Sergey"
+}
