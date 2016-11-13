@@ -41,38 +41,43 @@ $(document).ready(function () {
 
         var br = document.createElement('br');
 
-        var src = document.createElement('span');
-        $(src).addClass('homework-src');
-        $(src).html("SRC");
+        if(obj.src){
+            var src = document.createElement('span');
+            $(src).addClass('homework-src');
+            $(src).html("SRC");
 
-        var src_a = document.createElement('a');
-        $(src_a).attr("href", obj.src);
-        $(src_a).attr("target", '_blank');
-        $(src_a).html("Link");
+            var src_a = document.createElement('a');
+            $(src_a).attr("href", obj.src);
+            $(src_a).attr("target", '_blank');
+            $(src_a).html("Link");
 
-        var dest = document.createElement('span');
-        $(dest).addClass('homework-dest');
-        $(dest).html("DEST");
+            $(p).append(br)
+                .append(src)
+                .append(src_a);
+        }
 
-        var dest_a = document.createElement('a');
-        $(dest_a).attr("href", obj.dest);
-        $(dest_a).attr("target", '_blank');
-        $(dest_a).html("Link");
+        if(obj.dist){
+            var dest = document.createElement('span');
+            $(dest).addClass('homework-dist');
+            $(dest).html("DIST");
 
-        $(p)
-            .append(src)
-            .append(src_a)
-            .append(br)
-            .append(dest)
-            .append(dest_a);
+            var dest_a = document.createElement('a');
+            $(dest_a).attr("href", obj.dist);
+            $(dest_a).attr("target", '_blank');
+            $(dest_a).html("Link");
+            $(p).append(br)
+                .append(dest)
+                .append(dest_a);
+        }
 
         if(obj.img){
             var img = document.createElement('a');
-            $(dest_a).attr("href", obj.img);
-            $(dest_a).attr("target", '_blank');
-            $(dest_a).html("Screenshot");
+            $(img).attr("href", obj.img);
+            $(img).attr("target", '_blank');
+            $(img).html("Screenshot");
 
-            $(p).append(img);
+            $(p).append(br)
+                .append(img);
         }
 
         $(container).append(workname).append(p);

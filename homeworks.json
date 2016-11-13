@@ -3,17 +3,46 @@
     {
       "name":"MathJax",
       "src": "https://github.com/sergeypavlikhin/mathJax",
-      "dest": "https://sergeypavlikhin.github.io/mathJax"
+      "dist": "https://sergeypavlikhin.github.io/mathJax"
     },
     {
       "name":"Validate Brackets",
       "src": "https://github.com/sergeypavlikhin/validateBrackets",
-      "dest": "https://sergeypavlikhin.github.io/validateBrackets"
+      "dist": "https://sergeypavlikhin.github.io/validateBrackets"
     },
     {
       "name":"Display JSON (using flexbox)",
       "src": "https://github.com/sergeypavlikhin/portfolio",
-      "dest": "https://sergeypavlikhin.github.io/portfolio"
+      "dist": "https://sergeypavlikhin.github.io/portfolio"
+    },
+    {
+      "name":"Load JSON from kodaktor",
+      "src": "https://github.com/sergeypavlikhin/loadJSONFromKodaktor",
+      "dist": " https://sergeypavlikhin.github.io/loadJSONFromKodaktor"
+    },
+    {
+      "name":"Live SVG",
+      "src": "https://github.com/sergeypavlikhin/liveSVG",
+      "dist": "https://sergeypavlikhin.github.io/liveSVG"
+    },
+    {
+      "name":"POST-request to kodaktor",
+      "img": "imgs/ss1.PNG"
+    },
+    {
+      "name":"Custom XML",
+      "src": "https://github.com/sergeypavlikhin/customXML",
+      "dist": "https://sergeypavlikhin.github.io/customXML/customDTD.xml"
+    },
+    {
+      "name":"Parse XML",
+      "src": "https://github.com/sergeypavlikhin/parseXML",
+      "img": "imgs/ss2.jpg"
+    },
+    {
+      "name":"Tern",
+      "src": "https://github.com/sergeypavlikhin/through_hardship_to_the_stars",
+      "img": "imgs/ss3.jpg"
     }
   ],
   "author" : "Pavlikhin Sergey"

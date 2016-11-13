@@ -33,7 +33,7 @@ html, body{
     font-family: Arial;
 }
 .homework-src,
-.homework-dest,
+.homework-dist,
 .homework-img{
     margin-right: 10px;
 }
