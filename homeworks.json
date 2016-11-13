@@ -4,6 +4,11 @@
       "name":"MathJax",
       "src": "https://github.com/sergeypavlikhin/mathJax",
       "dest": "https://sergeypavlikhin.github.io/mathJax"
+    },
+    {
+      "name":"Validate Brackets",
+      "src": "https://github.com/sergeypavlikhin/validateBrackets",
+      "dest": "https://sergeypavlikhin.github.io/validateBrackets"
     }
   ],
   "author" : "Pavlikhin Sergey"
