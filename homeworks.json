@@ -9,6 +9,11 @@
       "name":"Validate Brackets",
       "src": "https://github.com/sergeypavlikhin/validateBrackets",
       "dest": "https://sergeypavlikhin.github.io/validateBrackets"
+    },
+    {
+      "name":"Display JSON (using flexbox)",
+      "src": "https://github.com/sergeypavlikhin/portfolio",
+      "dest": "https://sergeypavlikhin.github.io/portfolio"
     }
   ],
   "author" : "Pavlikhin Sergey"
