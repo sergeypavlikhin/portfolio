@@ -27,7 +27,7 @@
     },
     {
       "name":"POST-request to kodaktor",
-      "img": "imgs/ss1.PNG"
+      "img": "imgs/ss1.png"
     },
     {
       "name":"Custom XML",
@@ -37,12 +37,12 @@
     {
       "name":"Parse XML",
       "src": "https://github.com/sergeypavlikhin/parseXML",
-      "img": "imgs/ss2.JPG"
+      "img": "imgs/ss2.jpg"
     },
     {
       "name":"Tern",
       "src": "https://github.com/sergeypavlikhin/through_hardship_to_the_stars",
-      "img": "imgs/ss3.JPG"
+      "img": "imgs/ss3.jpg"
     }
   ],
   "author" : "Pavlikhin Sergey"
